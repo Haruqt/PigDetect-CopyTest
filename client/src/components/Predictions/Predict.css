@@ -1,0 +1,84 @@
+/* General styling for predict form */
+.predict-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.predict-form {
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  width: 100%;  /* Ensure buttons fill the available width */
+  padding: 10px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #004494;
+}
+
+.location-container {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.manual-location-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.manual-location-inputs label {
+  width: 48%;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.cropped-image-container {
+  margin-top: 20px;
+}
+
+.loading-spinner p {
+  font-size: 18px;
+  color: #0056b3;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+/* Add class to ensure the webcam and buttons share uniform width */
+.full-width {
+  width: 100%;
+}

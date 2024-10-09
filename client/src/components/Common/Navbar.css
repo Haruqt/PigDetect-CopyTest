@@ -1,0 +1,84 @@
+/* client/src/components/Common/Navbar.css */
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #050045; /* Dark blue background for navbar */
+  color: white;
+}
+
+/* Brand section */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 2.0rem;
+  text-decoration: none;
+}
+
+.navbar-brand a {
+  color: white; /* Change the color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Logo styles */
+.navbar-logo {
+  width: 40px; /* Adjust size as necessary */
+  height: 40px; /* Adjust size as necessary */
+  border-radius: 50%;
+  margin-right: 0.5rem; /* Space between logo and text */
+}
+
+/* Links container */
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Links styling */
+.navbar-links a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Notification badge styling */
+.navbar-notification {
+  position: relative;
+}
+
+/* Notification badge circle */
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 0.8rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links a {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}

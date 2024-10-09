@@ -1,0 +1,46 @@
+/* General container styling */
+.notification-container {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  /* The notification list container will scroll when it gets too large */
+  .notification-list {
+    max-height: 400px; /* Limit height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Styling for individual notification boxes */
+  .notification-box {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Empty notification styling */
+  .notification-box.empty {
+    text-align: center;
+  }
+  
+  /* Notification title */
+  .notification-box h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  /* Notification message text */
+  .notification-box p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  

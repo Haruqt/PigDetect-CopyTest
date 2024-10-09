@@ -1,0 +1,35 @@
+.footer {
+  padding: 1rem;
+  background-color: #050045;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 10; /* Ensures the footer stays on top */
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.map-container {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1; /* Ensure the map is below the footer */
+  margin-bottom: 200px; /* Add enough space for footer */
+}
+
+.full-map {
+  height: 100%;
+  width: 100%;
+}

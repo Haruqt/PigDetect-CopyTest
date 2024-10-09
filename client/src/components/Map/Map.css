@@ -1,0 +1,19 @@
+.map-container {
+    height: 100vh; /* Use full viewport height */
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+}
+
+.full-map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
