@@ -60,7 +60,7 @@ youtube project link : https://youtu.be/Xi8EIcZCZDE?si=fyZMtUQ9r8rnwywr
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/fatimaazfar/EpiDetect.git](https://github.com/Haruqt/PigDetect-CopyTest.git)
+    https://github.com/Haruqt/PigDetect-CopyTest.git
     ```
 
 2. Navigate to the project directory:
