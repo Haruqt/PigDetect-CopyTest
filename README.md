@@ -1,4 +1,4 @@
-# EpiDetect
+# PigDetect
 
 EpiDetect is a web application developed using the MERN stack, designed to predict skin diseases from images captured using your web camera. It uses a fine-tuned ResNet50 model for accurate pig skin disease detection with mapping using OpenStreetMap/leafletjs. also with Realtime Web And SMS Notification for authorities.
 
