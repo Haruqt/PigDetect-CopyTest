@@ -122,4 +122,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact
 
-For any inquiries, please contact Fatima Azfar at fatimaazfar381@gmail.com.
+For any inquiries, please contact Fatima Azfar at andreiventura04@gmail.com / rolandandrei.j.ventura@isu.edu.ph.
