@@ -1,13 +1,14 @@
 # EpiDetect
 
-EpiDetect is a web application developed using the MERN stack, designed to predict skin diseases from images captured using your web camera. It uses a fine-tuned ResNet50 model for accurate skin disease detection.
+EpiDetect is a web application developed using the MERN stack, designed to predict skin diseases from images captured using your web camera. It uses a fine-tuned ResNet50 model for accurate pig skin disease detection with mapping using OpenStreetMap/leafletjs. also with Realtime Web And SMS Notification for authorities.
 
 ## Features
 
 - **User Profile Management**: Users can view and update their profile information.
-- **Skin Disease Prediction**: Upload or capture images using the web camera to predict skin diseases.
+- **Pig Skin Disease Prediction**: Upload or capture images using the web camera to predict skin diseases.
+- **Mapping**: See the location/possible spread of the pig skin disease with heatmap/pin with 50 meter radius.
 - **Dashboard**: Access different functionalities from a central dashboard.
-- **Blog Creation**: Users can create and manage their blog posts.
+- **Blog Creation for admin/Lgu/vetmeds**: Users can create and manage their blog posts.
 - **Contact Form**: Users can send messages through the contact form.
 - **Prediction Records**: View and download prediction records in PDF format.
 
@@ -41,6 +42,8 @@ EpiDetect is a web application developed using the MERN stack, designed to predi
 - **Database**: MongoDB
 - **Machine Learning**: Python, TensorFlow, Keras (ResNet50 model)
 - **Other Tools**: JWT for authentication, multer for file uploads
+- **Mapping**: Leafletjs
+- **SMS**: Twillio
 
 ## Setup Instructions
 
@@ -115,10 +118,6 @@ I will soon be incorporating a chatbot to recommend natural solutions and treatm
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Contact
 
