@@ -2,6 +2,8 @@
 
 PigDetect is a web application developed using the MERN stack, designed to predict skin diseases from images captured using your web camera. It uses a fine-tuned ResNet50 model for accurate pig skin disease detection with mapping using OpenStreetMap/leafletjs. also with Realtime Web And SMS Notification for authorities.
 
+youtube project link : https://youtu.be/Xi8EIcZCZDE?si=fyZMtUQ9r8rnwywr
+
 ## Features
 
 - **User Profile Management**: Users can view and update their profile information.
