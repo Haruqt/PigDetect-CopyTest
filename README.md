@@ -123,4 +123,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Contact
 
-For any inquiries, please contact Fatima Azfar at andreiventura04@gmail.com / rolandandrei.j.ventura@isu.edu.ph.
+For any inquiries, please contact at andreiventura04@gmail.com / rolandandrei.j.ventura@isu.edu.ph.
